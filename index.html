@@ -31,60 +31,71 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="identity">
+        <p>
+          <img
+            src="assets/logo-navigation.svg"
+            id="navicon"
+            aria-hidden="true"
+          /><span class="sr-only">Home</span>
+        </p>
+        <a
+          class="hamburger"
+          href="#navbar"
+          aria-label="Open main menu"
+        >
+          <span class="sr-only"></span>
+          <img src="./assets/menu.svg" alt="" />
+        </a>
+      </div>
+      <nav id="navbar">
         <ul>
           <li>
-            <i class="fab fa-linkedin" aria-hidden="true"
-              ><span class="sr-only">LinkedIn</span></i
+            <a href="#">
+              <span class="navlink">About</span></a
             >
           </li>
           <li>
-            <a href="#"
-              ><i
-                class="fas fa-home"
-                aria-hidden="true"
-              ></i>
-              <span>Home</span></a
+            <a href="#">
+              <span class="navlink">Eat It</span></a
             >
           </li>
           <li>
-            <a href="#"
-              ><i
-                class="fas fa-project-diagram"
-                aria-hidden="true"
-              ></i>
-              <span>My Network</span></a
+            <a href="#">
+              <span class="navlink">Make It</span></a
             >
           </li>
           <li>
-            <a href="#"
-              ><i
-                class="fas fa-handshake"
-                aria-hidden="true"
-              ></i>
-              <span>Jobs</span></a
+            <a href="#">
+              <span class="navlink">Pair</span></a
             >
           </li>
           <li>
-            <a href="#"
-              ><i
-                class="fas fa-comments"
-                aria-hidden="true"
-              ></i>
-              <span>Messaging</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i
-                class="fas fa-bell"
-                aria-hidden="true"
-              ></i>
-              <span>Notifications</span></a
+            <a href="#">
+              <span class="navlink">Newsletter</span></a
             >
           </li>
         </ul>
+        <a
+          class="close"
+          href="#"
+          aria-label="Close main menu"
+        >
+          <!-- <span class="sr-only">Close main menu</span> -->
+          <img src="./assets/menu-close.svg" alt="" />
+        </a>
       </nav>
+      <img
+        id="banner"
+        src="./assets/logo-banner.svg"
+        alt="banner"
+      />
+
+      <img
+        class="powder-texture-banner"
+        src="assets/powder-texture-banner.svg"
+        alt="powder-texture"
+      />
     </header>
   </body>
 </html>

@@ -1,48 +1,133 @@
 @import "_base.scss";
 
-html {
+body {
+  font-family: $body-text;
   height: 100vh;
-  body {
-    font-family: $body-text;
-    margin: 0;
-    padding: 0;
-    header {
-      nav {
-        border-bottom: 5px solid #0966c2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 
-        nav ul {
-          padding: 0;
-          margin: 0;
-          list-style-type: none;
-          font-size: $fs-mobile-4;
-          display: flex;
-          justify-content: flex-end;
-        }
-        nav li:first-child {
-          margin-right: auto;
-          font-size: $fs-mobile-4;
-          padding: 0.5rem 1rem 0 1rem;
-          color: #0966c2;
-        }
-        nav a {
-          color: #0966c2;
-          text-decoration: none;
-          display: block;
-          padding: 1rem 1rem 0rem 1rem;
-          text-align: center;
-        }
-        nav span::before {
-          content: "\a";
-          white-space: pre;
-        }
-        nav a:hover {
-          color: white;
-          background-color: #0966c2;
-        }
-        nav a:hover i {
-          color: #f3ba64;
-        }
-      }
+  .hamburger,
+  .close {
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    color: $powdered-red;
+  }
+  header {
+    height: 600px;
+    background: linear-gradient(
+        rgba(22, 22, 22, 0.5),
+        rgba(32, 32, 32, 0.5)
+      ),
+      url("../assets/banner-toast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+  }
+
+  .identity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav {
+    background-color: $powdered-red;
+    border-bottom: 5px solid $powdered-red;
+    position: absolute;
+    /* a higher z-index put navbar above hamburger */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* style the bar in one cell and the close button in the other */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    /* animate slide up/down */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+  nav:target {
+    transform: translateY(0);
+  }
+  .fa-linkedin {
+    margin-right: auto;
+    font-size: 6rem;
+    padding: 0.5rem 1rem 0 1rem;
+    color: $powdered-red;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1rem 0rem 1rem;
+    text-align: center;
+  }
+  .close {
+    color: #f3ba64;
+  }
+  nav a:hover {
+    color: #f3ba64;
+    background-color: $powdered-red;
+  }
+  nav a:hover i {
+    color: #f3ba64;
+  }
+  @media (min-width: 875px) {
+    header {
+      margin: 1rem auto;
     }
+    .identity {
+      margin-bottom: -120px;
+    }
+    nav {
+      background-color: transparent;
+      padding: 0;
+      position: static;
+      height: auto;
+      transform: translateY(0);
+    }
+    .hamburger,
+    .close {
+      display: none;
+    }
+    nav ul {
+      flex-flow: row wrap;
+      justify-content: flex-end;
+    }
+    nav a {
+      color: $powdered-red;
+    }
+    nav a:hover {
+      color: white;
+    }
+    nav span::before {
+      content: "\a";
+      white-space: pre;
+    }
+  }
+  #banner {
+    width: 237px;
+    height: 306px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    filter: invert(100%);
   }
 }
