@@ -1,41 +1,46 @@
 //Font import
 @import url("https://fonts.googleapis.com/css2?family=Astloch&family=Roboto:wght@400;500;700&display=swap");
 
-/* ************ MIXINS ************ */
+/* Font families. */
+$display-text: "Astloch", cursive;
+$body-text: "Roboto Regular", sans-serif;
+$functional-text: "Roboto Bold", sans-serif;
 
-//Adds font-size in rem & px
-//Value passed should be the expected px size
-//Default value 12 - can be customized to fit project
-// @mixin desktop-font-size($sizeValue: 12) {
-//   font-size: $sizeValue + px; //fallback for old browsers
-//   font-size: (0.0625 * $sizeValue) + rem;
-// }
+/* Font sizes Desktop */
+$fs-desktop-1: 12px;
+$fs-desktop-2: 14px;
+$fs-desktop-3: 16px;
+$fs-desktop-4: 18px;
+$fs-desktop-5: 36px;
+$fs-desktop-6: 56px;
+$fs-desktop-7: 72px;
 
-// @mixin desktop-line-height($heightValue: 16) {
-//   line-height: $heightValue + px; //fallback for old browsers
-//   line-height: (0.0625 * $heightValue) + rem;
-// }
+// /* Line heights Desktop */
+$lh-desktop-1: 16px;
+$lh-desktop-2: 20px;
+$lh-desktop-3: 22px;
+$lh-desktop-4: 24px;
+$lh-desktop-5: 44px;
+$lh-desktop-6: 64px;
+$lh-desktop-7: 80px;
 
-// @mixin mobile-font-size($sizeValue: 10) {
-//   font-size: $sizeValue + px; //fallback for old browsers
-//   font-size: (0.0625 * $sizeValue) + rem;
-// }
-// //Adds line-height in rem & px
-// //Value passed should be the expected px size
-// @mixin mobile-line-height($heightValue: 14) {
-//   line-height: $heightValue + px; //fallback for old browsers
-//   line-height: (0.0625 * $heightValue) + rem;
-// }
+/* Font sizes Mobile */
+$fs-mobile-1: 10px;
+$fs-mobile-2: 12px;
+$fs-mobile-3: 14px;
+$fs-mobile-4: 16px;
+$fs-mobile-5: 24px;
+$fs-mobile-6: 36px;
+$fs-mobile-7: 44px;
 
-// @mixin mobile-rhythm($sizeValue: 10, $heightValue: 14) {
-//   @include font-size($sizeValue);
-//   @include line-height($heightValue);
-// }
-
-// @mixin desktop-rhythm($sizeValue: 12, $heightValue: 2160) {
-//   @include font-size($sizeValue);
-//   @include line-height($heightValue);
-// }
+// /* Line heights Mobile */
+$lh-mobile-1: 14px;
+$lh-mobile-2: 16px;
+$lh-mobile-3: 20px;
+$lh-mobile-4: 22px;
+$lh-mobile-5: 32px;
+$lh-mobile-6: 44px;
+$lh-mobile-7: 56px;
 
 body,
 html {
