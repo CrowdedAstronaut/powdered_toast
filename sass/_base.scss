@@ -1,7 +1,45 @@
-body {
-  box-sizing: border-box;
+//Font import
+@import url("https://fonts.googleapis.com/css2?family=Astloch&family=Roboto:wght@400;500;700&display=swap");
 
-  h1 {
-    font-size: large;
-  }
+/* ************ MIXINS ************ */
+
+//Adds font-size in rem & px
+//Value passed should be the expected px size
+//Default value 12 - can be customized to fit project
+// @mixin desktop-font-size($sizeValue: 12) {
+//   font-size: $sizeValue + px; //fallback for old browsers
+//   font-size: (0.0625 * $sizeValue) + rem;
+// }
+
+// @mixin desktop-line-height($heightValue: 16) {
+//   line-height: $heightValue + px; //fallback for old browsers
+//   line-height: (0.0625 * $heightValue) + rem;
+// }
+
+// @mixin mobile-font-size($sizeValue: 10) {
+//   font-size: $sizeValue + px; //fallback for old browsers
+//   font-size: (0.0625 * $sizeValue) + rem;
+// }
+// //Adds line-height in rem & px
+// //Value passed should be the expected px size
+// @mixin mobile-line-height($heightValue: 14) {
+//   line-height: $heightValue + px; //fallback for old browsers
+//   line-height: (0.0625 * $heightValue) + rem;
+// }
+
+// @mixin mobile-rhythm($sizeValue: 10, $heightValue: 14) {
+//   @include font-size($sizeValue);
+//   @include line-height($heightValue);
+// }
+
+// @mixin desktop-rhythm($sizeValue: 12, $heightValue: 2160) {
+//   @include font-size($sizeValue);
+//   @include line-height($heightValue);
+// }
+
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
