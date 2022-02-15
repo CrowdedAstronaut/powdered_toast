@@ -24,6 +24,13 @@ body {
     background-size: cover;
     filter: brightness(100%);
   }
+  .powder-texture-banner {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
 
   .identity {
     display: flex;
@@ -51,10 +58,12 @@ body {
     transition: transform 0.2s ease;
   }
   nav ul {
-    padding: 0;
+    padding: 0 0 0 10%;
     margin: 0;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    justify-content: center;
     display: flex;
     flex-flow: column wrap;
     width: 100%;
@@ -62,12 +71,7 @@ body {
   nav:target {
     transform: translateY(0);
   }
-  .fa-linkedin {
-    margin-right: auto;
-    font-size: 6rem;
-    padding: 0.5rem 1rem 0 1rem;
-    color: $powdered-red;
-  }
+
   nav a {
     color: white;
     text-decoration: none;

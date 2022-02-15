@@ -23,6 +23,13 @@ body header {
   background-size: cover;
   filter: brightness(100%);
 }
+body .powder-texture-banner {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 body .identity {
   display: flex;
   align-items: center;
@@ -48,22 +55,18 @@ body nav {
   transition: transform 0.2s ease;
 }
 body nav ul {
-  padding: 0;
+  padding: 0 0 0 10%;
   margin: 0;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 16px;
+  line-height: 22px;
+  justify-content: center;
   display: flex;
   flex-flow: column wrap;
   width: 100%;
 }
 body nav:target {
   transform: translateY(0);
-}
-body .fa-linkedin {
-  margin-right: auto;
-  font-size: 6rem;
-  padding: 0.5rem 1rem 0 1rem;
-  color: #844646;
 }
 body nav a {
   color: white;
