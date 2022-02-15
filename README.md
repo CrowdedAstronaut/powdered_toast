@@ -34,7 +34,7 @@ HTML5
 CSS3
 Yarn
 
-## User Stories (MVP/CRUD)
+## User Storiess
 
 - As a user of powdered toast, I want to be able to view the history of powdered toast, ways to eat it, good food pairings, and a link to the powdered toast newsletter.
 - As a user of powdered toast, I want to be able to fill out a form, and subscribe to the newsletter.
