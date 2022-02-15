@@ -13,48 +13,85 @@
 # Table of Contents
 
 - [About this project](#about)
-- [Workflow](#workflow)
+- [Workflow](#userstories)
 - [Technologies](#technologies)
 - [Links](#links)
-- [Installation](#install)
+- [Learning Experience](#learning)
+- [Future Direction](#future)
 
 <hr />
 <br />
-[Home_Mobile](placeholder URL)
 
-## Project Description
 
-Powdered Toast is a deployed, mobile first, responsive site about powdered toast. The site allows users to learn more about powdered toast, it's history, ways to eat it, good food pairings, as well as a form to sign up for the newsletter and a link to the newsletter.
+## Project Description <a name="about"></a>
 
-Link To Site: https://devography.netlify.app/
+Powdered Toast is a deployed, mobile first, responsive site about powdered toast. The site allows users to learn more about powdered toast, it's history, ways to eat it, good food pairings, as well as a form to sign up for the newsletter and a link to the newsletter. This project was an exercise in:
 
-## Programs/Applications Used:
+- Mobile First Methodology
+- Pixel Perfect Design Implementation
+- SCSS
+- Semantic naming conventions
+- Flexbox
+- CSS Grid
 
-HTML5
-CSS3
-Yarn
 
-## User Storiess
 
-- As a user of powdered toast, I want to be able to view the history of powdered toast, ways to eat it, good food pairings, and a link to the powdered toast newsletter.
-- As a user of powdered toast, I want to be able to fill out a form, and subscribe to the newsletter.
-- As a user of powdered toast, I want to be able to easily navigate to different parts of the page.
-- As a user of powdered toast, I want to see different views of the site depending on if I'm visiting from a mobile or desktop device.
+### Mobile Preview
 
-## Workflow
+![Mobile Gif]()
 
-Our team used Agile workflow for this sprint.
+### Desktop Preview
 
-# Design
+![Desktop Preview]()
 
-A [Figma](https://trello.com/b/wuiNN4iB/devography) file was used to communicate the designer's vision in pixel perfect format, and it included a very specific style guide linked here.
+</br>
 
-# Version Control
+# User Stories <a name="userstories"></a>
 
-I implemented a Git Feature Branch Workflow.
+### As a user of daily-HUD, I would like to be able to:
 
-## Learning Experience
+- view the history of powdered toast, ways to eat it, good food pairings, and a link to the powdered toast newsletter.
+- fill out a form, and subscribe to the newsletter.
+- Easily navigate to different parts of the page.
+- See different views of the site depending on if I'm visiting from a mobile or desktop device.
 
-## Future Directions
+</br>
+# Technologies <a name="technologies"></a>
 
-## Accomplishments
+<table>
+  <tbody>
+    <tr>
+      <td>Front End Languages</td>
+      <td>
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+        <img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+        <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+      </td>
+    </tr>
+      <td>Design</td>
+      <td>
+        <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>Utilities</td>
+      <td>
+        <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>
+          <img alt="Github Pages" src="https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<br />
+
+
+## Learning Experience <a name="leaarning"></a>
+
+## Future Directions <a name="future"></a>
