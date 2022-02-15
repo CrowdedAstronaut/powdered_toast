@@ -1,35 +1,48 @@
-.main-container {
+@import "_base.scss";
+
+html {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  /* The hero image */
-  .header-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("../assets/banner-toast.jpg");
+  body {
+    font-family: $body-text;
+    margin: 0;
+    padding: 0;
+    header {
+      nav {
+        border-bottom: 5px solid #0966c2;
 
-    /* Set a specific height */
-    height: 100%;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  /* Place text in the middle of the image */
-  .logo-banner {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+        nav ul {
+          padding: 0;
+          margin: 0;
+          list-style-type: none;
+          font-size: $fs-mobile-4;
+          display: flex;
+          justify-content: flex-end;
+        }
+        nav li:first-child {
+          margin-right: auto;
+          font-size: $fs-mobile-4;
+          padding: 0.5rem 1rem 0 1rem;
+          color: #0966c2;
+        }
+        nav a {
+          color: #0966c2;
+          text-decoration: none;
+          display: block;
+          padding: 1rem 1rem 0rem 1rem;
+          text-align: center;
+        }
+        nav span::before {
+          content: "\a";
+          white-space: pre;
+        }
+        nav a:hover {
+          color: white;
+          background-color: #0966c2;
+        }
+        nav a:hover i {
+          color: #f3ba64;
+        }
+      }
+    }
   }
 }

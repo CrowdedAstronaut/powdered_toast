@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Astloch&family=Roboto:wght@400;500;700&display=swap");
 
 /* Font families. */
-$display-text: "Astloch", cursive;
-$body-text: "Roboto Regular", sans-serif;
+$display-text: "Astloch Regular", cursive;
+$body-text: "Roboto", sans-serif;
 $functional-text: "Roboto Bold", sans-serif;
 
 /* Font sizes Desktop */
@@ -41,10 +41,3 @@ $lh-mobile-4: 22px;
 $lh-mobile-5: 32px;
 $lh-mobile-6: 44px;
 $lh-mobile-7: 56px;
-
-body,
-html {
-  height: 100%;
-  box-sizing: border-box;
-  border: 1px solid red;
-}
