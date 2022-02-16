@@ -12,6 +12,7 @@ body {
     font-size: $fs-mobile-4;
     line-height: $lh-mobile-4;
     color: $powdered-red;
+    margin: 5px 15px 0 0;
   }
   header {
     height: 600px;
@@ -43,6 +44,9 @@ body {
     z-index: 1000;
     margin: 0 0 0 16px;
     padding: 0;
+    width: 40px;
+    height: 44px;
+    filter: invert(100%);
   }
   nav {
     background-color: $powdered-red;

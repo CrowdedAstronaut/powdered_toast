@@ -15,6 +15,7 @@ body .close {
   font-size: 16px;
   line-height: 22px;
   color: #844646;
+  margin: 5px 15px 0 0;
 }
 body header {
   height: 600px;
@@ -40,6 +41,9 @@ body #navicon {
   z-index: 1000;
   margin: 0 0 0 16px;
   padding: 0;
+  width: 40px;
+  height: 44px;
+  filter: invert(100%);
 }
 body nav {
   background-color: #844646;
@@ -139,13 +143,6 @@ body #banner {
   display: block;
   margin: auto;
   filter: invert(100%);
-}
-
-#navicon {
-  width: 40px;
-  height: 44px;
-  filter: invert(100%);
-  margin: 10px;
 }
 
 /* Font families. */
