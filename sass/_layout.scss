@@ -298,4 +298,24 @@ body {
       margin-top: 0;
     }
   }
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .footer-img {
+      width: 74px;
+      height: 82px;
+      margin: 0 auto;
+      margin-top: 100px;
+    }
+    .footer-text {
+      text-transform: uppercase;
+      font-size: $fs-mobile-1;
+      line-height: $lh-mobile-1;
+      color: $light-gray;
+      font-weight: bold;
+      letter-spacing: 3px;
+      margin: 20px;
+    }
+  }
 }
