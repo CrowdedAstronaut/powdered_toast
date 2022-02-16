@@ -37,12 +37,19 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+
+  #navicon {
+    position: absolute;
+    z-index: 1000;
+    margin: 0 0 0 16px;
+    padding: 0;
+  }
   nav {
     background-color: $powdered-red;
     border-bottom: 5px solid $powdered-red;
     position: absolute;
     /* a higher z-index put navbar above hamburger */
-    z-index: 1000;
+    z-index: 500;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,6 +70,7 @@ body {
     list-style-type: none;
     font-size: $fs-mobile-4;
     line-height: $lh-mobile-4;
+    letter-spacing: 2px;
     justify-content: center;
     display: flex;
     flex-flow: column wrap;
@@ -70,6 +78,10 @@ body {
   }
   nav:target {
     transform: translateY(0);
+  }
+
+  nav li {
+    margin-bottom: 10%;
   }
 
   nav a {

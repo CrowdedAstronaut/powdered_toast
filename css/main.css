@@ -35,12 +35,18 @@ body .identity {
   align-items: center;
   justify-content: space-between;
 }
+body #navicon {
+  position: absolute;
+  z-index: 1000;
+  margin: 0 0 0 16px;
+  padding: 0;
+}
 body nav {
   background-color: #844646;
   border-bottom: 5px solid #844646;
   position: absolute;
   /* a higher z-index put navbar above hamburger */
-  z-index: 1000;
+  z-index: 500;
   top: 0;
   left: 0;
   width: 100%;
@@ -60,6 +66,7 @@ body nav ul {
   list-style-type: none;
   font-size: 16px;
   line-height: 22px;
+  letter-spacing: 2px;
   justify-content: center;
   display: flex;
   flex-flow: column wrap;
@@ -67,6 +74,9 @@ body nav ul {
 }
 body nav:target {
   transform: translateY(0);
+}
+body nav li {
+  margin-bottom: 10%;
 }
 body nav a {
   color: white;
