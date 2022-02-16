@@ -38,11 +38,11 @@ Powdered Toast is a deployed, mobile first, responsive site about powdered toast
 
 ### Mobile Preview
 
-![Mobile Gif]()
+![Mobile Gif](https://raw.githubusercontent.com/CrowdedAstronaut/powdered_toast/main/assets/powdered-toast.gif)
 
 ### Desktop Preview
 
-![Desktop Preview]()
+![Desktop Preview](https://github.com/CrowdedAstronaut/powdered_toast/raw/main/assets/powdered-toast-desktop-preview.png)
 
 </br>
 
