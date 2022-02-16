@@ -150,4 +150,25 @@ body {
     margin: auto;
     filter: invert(100%);
   }
+
+  .about-title,
+  .paring-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: $powdered-red;
+    font-size: $fs-mobile-7;
+    line-height: $lh-mobile-7;
+    font-family: $display-text;
+  }
+  .about-header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: $dark-gray;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    font-family: $functional-text;
+    text-transform: uppercase;
+  }
 }
