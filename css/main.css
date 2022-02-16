@@ -266,6 +266,55 @@ body .pairing-items .pairing-item .pairing-item-description {
   line-height: 16px;
   margin-left: 12px;
 }
+body #newsletter {
+  border-radius: 16px;
+  padding: 10px;
+  padding-top: 30px;
+  background: #844646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+body #newsletter .newsletter-img {
+  position: absolute;
+  margin-top: 123px;
+  width: 320px;
+}
+body #newsletter .newsletter-header {
+  font-family: "Astloch", cursive;
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+button {
+  background: #844646;
+  border: 1px solid white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  width: 100px;
+  height: 44px;
+  margin-top: 10px;
+  display: flex;
+}
+
+button:hover {
+  border: 3px solid white;
+  cursor: pointer;
+}
 
 * {
   box-sizing: border-box;

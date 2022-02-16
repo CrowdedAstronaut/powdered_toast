@@ -1,0 +1,19 @@
+button {
+  background: $powdered-red;
+  border: 1px solid white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  width: 100px;
+  height: 44px;
+  margin-top: 10px;
+  display: flex;
+}
+
+button:hover {
+  border: 3px solid white;
+  cursor: pointer;
+}
