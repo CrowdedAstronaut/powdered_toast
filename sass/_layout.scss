@@ -154,15 +154,16 @@ body {
   .about-title,
   .paring-title {
     margin: 0;
-    padding: 0;
+    padding: 16px 0;
     text-align: center;
     color: $powdered-red;
     font-size: $fs-mobile-7;
     line-height: $lh-mobile-7;
     font-family: $display-text;
+    letter-spacing: 2px;
   }
   .about-header {
-    margin: 0;
+    margin: 32px 0;
     padding: 0;
     text-align: center;
     color: $dark-gray;
@@ -170,5 +171,102 @@ body {
     line-height: $lh-mobile-4;
     font-family: $functional-text;
     text-transform: uppercase;
+  }
+  .about-text {
+    margin: 0 16px;
+    padding: 0;
+    text-align: center;
+    color: $light-gray;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    font-family: $body-text;
+  }
+  .eat-it-title {
+    margin: 32px 0 32px 16px;
+    padding: 0;
+    text-align: left;
+    color: $powdered-red;
+    font-size: $fs-mobile-6;
+    line-height: $lh-mobile-6;
+    font-family: $display-text;
+  }
+
+  .eat-it-text {
+    margin: 0 16px;
+    padding: 0;
+    text-align: left;
+    color: $light-gray;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    font-family: $body-text;
+  }
+  .make-it-title {
+    margin: 32px 0 32px 16px;
+    padding-left: 0;
+    text-align: left;
+    color: $powdered-red;
+    font-size: $fs-mobile-6;
+    line-height: $lh-mobile-6;
+    font-family: $display-text;
+  }
+  .make-it-header {
+    margin-left: 16px;
+    padding: 0;
+    text-align: left;
+    color: $dark-gray;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    font-family: $functional-text;
+    text-transform: uppercase;
+  }
+  .make-it-text {
+    margin: 0 16px;
+    padding: 0;
+    text-align: left;
+    color: $light-gray;
+    font-size: $fs-mobile-4;
+    line-height: $lh-mobile-4;
+    font-family: $body-text;
+  }
+  .paring-text {
+    margin: 16px;
+    padding: 0;
+    text-align: center;
+    color: $light-gray;
+    font-size: $fs-mobile-3;
+    line-height: $lh-mobile-3;
+    font-family: $body-text;
+  }
+  .pairing-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .pairing-item {
+      width: 150px;
+      .pairing-item-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 16px;
+        padding: 5px;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: auto;
+      }
+      .pairing-item-title {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: $functional-text;
+        margin: 12px;
+        font-size: $fs-mobile-4;
+        line-height: $fs-mobile-4;
+      }
+      .pairing-item-description {
+        color: $light-gray;
+        font-size: $fs-mobile-2;
+        line-height: $lh-mobile-2;
+        margin-left: 12px;
+      }
+    }
   }
 }

@@ -152,15 +152,16 @@ body #banner {
 body .about-title,
 body .paring-title {
   margin: 0;
-  padding: 0;
+  padding: 16px 0;
   text-align: center;
   color: #844646;
   font-size: 44px;
   line-height: 56px;
   font-family: "Astloch", cursive;
+  letter-spacing: 2px;
 }
 body .about-header {
-  margin: 0;
+  margin: 32px 0;
   padding: 0;
   text-align: center;
   color: #333333;
@@ -168,6 +169,102 @@ body .about-header {
   line-height: 22px;
   font-family: "Roboto Bold", sans-serif;
   text-transform: uppercase;
+}
+body .about-text {
+  margin: 0 16px;
+  padding: 0;
+  text-align: center;
+  color: #777777;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto", sans-serif;
+}
+body .eat-it-title {
+  margin: 32px 0 32px 16px;
+  padding: 0;
+  text-align: left;
+  color: #844646;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Astloch", cursive;
+}
+body .eat-it-text {
+  margin: 0 16px;
+  padding: 0;
+  text-align: left;
+  color: #777777;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto", sans-serif;
+}
+body .make-it-title {
+  margin: 32px 0 32px 16px;
+  padding-left: 0;
+  text-align: left;
+  color: #844646;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Astloch", cursive;
+}
+body .make-it-header {
+  margin-left: 16px;
+  padding: 0;
+  text-align: left;
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto Bold", sans-serif;
+  text-transform: uppercase;
+}
+body .make-it-text {
+  margin: 0 16px;
+  padding: 0;
+  text-align: left;
+  color: #777777;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto", sans-serif;
+}
+body .paring-text {
+  margin: 16px;
+  padding: 0;
+  text-align: center;
+  color: #777777;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+}
+body .pairing-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .pairing-items .pairing-item {
+  width: 150px;
+}
+body .pairing-items .pairing-item .pairing-item-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  padding: 5px;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+}
+body .pairing-items .pairing-item .pairing-item-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Roboto Bold", sans-serif;
+  margin: 12px;
+  font-size: 16px;
+  line-height: 16px;
+}
+body .pairing-items .pairing-item .pairing-item-description {
+  color: #777777;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 12px;
 }
 
 * {
