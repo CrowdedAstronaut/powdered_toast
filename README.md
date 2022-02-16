@@ -94,4 +94,15 @@ Powdered Toast is a deployed, mobile first, responsive site about powdered toast
 
 ## Learning Experience <a name="leaarning"></a>
 
+### This challenge tested all of my layout skills, some of the things that stood out to me were:
+1) mobile first - I always try to code things stacked vertically & then use some sort of responsive media query to unstack for desktop.
+2) width/height vs max-width & max height. If a design says the max-width for a container is 1440px desktop & 375px mobile - what's the best root structure to implement those rules?
+3) relative positioning, absolute positioning, & z-index. Figuring out how to stack the logo and the hamburger menu on top of the hero image was a gun challenge.
+4) pixel perfect design - Coding something from a Figma design file is one of my favorite challenges to tackle. There were a lot of details to pay attention to here, I'm curious how close I got.
+5) responsive nav, hamburger menu, no JavaScript - I'm proud of this work.
+6) css variables/mixins - this challenge had lots of different line heights & font sizes declared as part of the layout. I created a lot of SASS variables, but I think there is a more concise way. I think it's possible to store 2 properties (font-size & line height) in 1 rule.
+7) sass - I built this project using vanilla CSS and I used sass for seperation of concerns.
+8) changing the fill color of svgs using the CSS function filter(). That was a new discovery.
+
 ## Future Directions <a name="future"></a>
+I'd like to get the desktop version a little closer to spec. The nav needs to be centered, and all of the font-size/line height values change on desktop. Those changes are just a media query away, but I did not get to address them by the time of this commit. I would also like to implement the image carousel functionality with either CSS or JS.
